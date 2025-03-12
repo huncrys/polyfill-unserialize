@@ -10,7 +10,7 @@ namespace Brumann\Polyfill;
 final class DisallowedClassesSubstitutor
 {
     const PATTERN_STRING = '#s:(\d+):(")#';
-    const PATTERN_OBJECT = '#(^|;)O:\d+:"([^"]*)":(\d+):\{#';
+    const PATTERN_OBJECT = '#(^|;)O:[+-]?\d+:"([^"]*)":(\d+):\{#';
 
     /**
      * @var string
